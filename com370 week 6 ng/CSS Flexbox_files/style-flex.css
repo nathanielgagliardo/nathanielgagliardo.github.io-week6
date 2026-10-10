@@ -1,0 +1,40 @@
+body {
+    width: 800px;
+    margin: 25px;
+}
+
+div {
+    display: flex; 
+}
+
+.first {
+    align-items: flex-start;
+    justify-content: flex-start;
+    gap: 10px;
+    flex-direction: row; flex-wrap:wrap;
+}
+
+.second {
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    flex-direction: row; flex-wrap: wrap;
+}
+
+.third {
+    align-items: flex-end;
+    justify-content: flex-end;
+    gap: 10px;
+    flex-direction: row; flex-wrap: wrap;
+}
+
+.child {
+    background-color: rgb(2, 167, 196);
+    border-color: rgb(8, 118, 138); border: 3px, solid;
+    width: 100px;
+    height: 100px;
+}
+
+
+
+    /*Try using display, align-items, and justify-content*/
